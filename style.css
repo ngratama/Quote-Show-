@@ -1,0 +1,28 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* Extend full height of browser  */
+  height: 100vh;
+
+  /* Load Background Images with JS. Style with CSS */
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family: "Permanent Marker";
+  font-size: 4vmin;
+  text-align: center;
+  max-width: 315px;
+  color: white;
+  background-image: linear-gradient(#2d2476, #2c303adb, #00000000);
+}
